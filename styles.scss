@@ -66,32 +66,31 @@ form{
         font-size: 40px;
         text-transform: uppercase;
         color: $colorSecundario;
-        li{
-            list-style: none;
-            input{
-                width:100%;
-                font-size: 25px;
-                background-color: $colorSecundarioTransp;
-                margin: 5px;
-                border: none;
-                border-bottom: 2px solid $colorPrincipal;
-            }
-
-            input::placeholder{
-                color: $colorPrincipal;
-            }
-            textarea{
-            width: 100%;
-            font-size: 25px;
-            background-color: $colorSecundarioTransp;
-            margin: 5px;
-            border: none;
-            border-bottom: 2px solid $colorPrincipal;
-            }
-            textarea::placeholder{
-            color: $colorPrincipal;
-            }
-        }
+    }
+    li{
+        list-style: none;
+    }
+    input{
+        width:100%;
+        font-size: 25px;
+        background-color: $colorSecundarioTransp;
+        margin: 5px;
+        border: none;
+        border-bottom: 2px solid $colorPrincipal;
+    }
+    input::placeholder{
+        color: $colorPrincipal;
+    }
+    textarea{
+        width: 100%;
+        font-size: 25px;
+        background-color: $colorSecundarioTransp;
+        margin: 5px;
+        border: none;
+        border-bottom: 2px solid $colorPrincipal;
+    }
+    textarea::placeholder{
+        color: $colorPrincipal;
     }
 }
 
@@ -104,7 +103,7 @@ form{
 
 /* fin estilos formulario */
 
-/* Inicio footer */
+/* Inicio Footer*/
 
 .footer{
     background-color: $colorAtras;
@@ -121,4 +120,4 @@ form{
     }
 }
 
-/* Fin footer */
+/*Fin Footer*/ 

@@ -51,10 +51,10 @@ form h2 {
   text-transform: uppercase;
   color: #affc41;
 }
-form h2 li {
+form li {
   list-style: none;
 }
-form h2 li input {
+form input {
   width: 100%;
   font-size: 25px;
   background-color: rgba(174, 252, 65, 0.8);
@@ -62,13 +62,13 @@ form h2 li input {
   border: none;
   border-bottom: 2px solid #0e34a0;
 }
-form h2 li input::-moz-placeholder {
+form input::-moz-placeholder {
   color: #0e34a0;
 }
-form h2 li input::placeholder {
+form input::placeholder {
   color: #0e34a0;
 }
-form h2 li textarea {
+form textarea {
   width: 100%;
   font-size: 25px;
   background-color: rgba(174, 252, 65, 0.8);
@@ -76,10 +76,10 @@ form h2 li textarea {
   border: none;
   border-bottom: 2px solid #0e34a0;
 }
-form h2 li textarea::-moz-placeholder {
+form textarea::-moz-placeholder {
   color: #0e34a0;
 }
-form h2 li textarea::placeholder {
+form textarea::placeholder {
   color: #0e34a0;
 }
 
@@ -91,7 +91,7 @@ form h2 li textarea::placeholder {
 }
 
 /* fin estilos formulario */
-/* Inicio footer */
+/* Inicio Footer*/
 .footer {
   background-color: #7b7263;
   color: #ffffff;
@@ -108,4 +108,4 @@ form h2 li textarea::placeholder {
   margin: 0 10px;
 }
 
-/* Fin footer *//*# sourceMappingURL=styles.css.map */
+/*Fin Footer*//*# sourceMappingURL=styles.css.map */
